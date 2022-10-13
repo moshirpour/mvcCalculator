@@ -1,3 +1,7 @@
+import Controller.CalcController;
+import Model.CalcModel;
+import View.CalcView;
+
 public class Main {
     public static void main(String[] args) {
 

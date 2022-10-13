@@ -1,3 +1,5 @@
+package View;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -43,7 +45,7 @@ public class CalcView extends JFrame {
     public void addCalcListener (ActionListener listenForCalcButton){
         calcButton.addActionListener(listenForCalcButton);
     }
-    void displayErrorMessage (String errorMessage){
+    public void displayErrorMessage (String errorMessage){
         JOptionPane.showMessageDialog(this,errorMessage);
     }
 

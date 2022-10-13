@@ -1,3 +1,5 @@
+package Model;
+
 public class CalcModel {
 
     private int theSolution;
